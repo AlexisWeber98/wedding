@@ -49,7 +49,7 @@ export default function App() {
         <div className="hero__overlay" />
         <div className="hero__content">
           <h1>Mariana & Alexis</h1>
-          <p className="hero__subtitle">20—21 Septiembre 2025</p>
+          <p className="hero__subtitle">20—21 Noviembre 2025</p>
         </div>
       </header>
 
