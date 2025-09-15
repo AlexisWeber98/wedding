@@ -237,7 +237,7 @@ export default function App() {
             Alias: <strong>{alias ?? "mariana.alexis.boda"}</strong>
           </p>
           <p>
-            CBU: <strong>{cbu ?? "0000000000000000000000"}</strong>
+            CBU: <strong>{cbu ?? "0170132240000010261820"}</strong>
           </p>
         </div>
       </section>
