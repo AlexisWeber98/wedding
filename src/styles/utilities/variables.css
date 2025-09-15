@@ -1,0 +1,50 @@
+:root {
+  /* Colores principales */
+  --bg: #e2c5c5;
+  --text: #2d1b3d;
+  --muted: #8b5a8c;
+  --accent: #ec4899;
+  --accent-2: #f472b6;
+  --accent-3: #f9a8d4;
+  --soft: #f0f0f0;
+  --soft-2: #f3f3f3;
+  --card: #ffffff;
+  --card-alt: #f0f0f0;
+  
+  /* Colores florales */
+  --floral-pink: #f8b4d1;
+  --floral-purple: #d8b4e8;
+  --floral-gold: #f4d03f;
+  
+  /* Sombras y bordes */
+  --shadow: 0 12px 34px rgba(236, 72, 153, 0.12);
+  --border: rgba(236, 72, 153, 0.15);
+  
+  /* Tipografía */
+  --font-primary: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  --font-serif: "Playfair Display", serif;
+  --font-script: "Parisienne", "Playfair Display", serif;
+  
+  /* Espaciado */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+  
+  /* Bordes redondeados */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 18px;
+  --radius-full: 999px;
+  
+  /* Transiciones */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.2s ease;
+  --transition-slow: 0.3s ease;
+  --transition-slower: 0.6s ease;
+}

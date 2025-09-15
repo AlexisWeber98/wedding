@@ -1,0 +1,20 @@
+/* Separadores con elementos florales */
+.divider {
+  height: 56px;
+  background: url("data:image/svg+xml,%3Csvg width='1440' height='96' viewBox='0 0 1440 96' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,56 C180,16 360,88 540,56 C720,24 900,88 1080,56 C1260,24 1440,88 1440,88 L1440,96 L0,96 Z' fill='%23f8f4f8'/%3E%3C/svg%3E")
+    center/cover no-repeat;
+  opacity: 0.92;
+  filter: drop-shadow(0 10px 18px rgba(236, 72, 153, 0.1));
+  position: relative;
+}
+
+.divider::before {
+  content: "🌸 🌸 🌸";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  opacity: 0.6;
+  animation: petalSway 3s ease-in-out infinite;
+}

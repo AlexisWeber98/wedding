@@ -1,0 +1,65 @@
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .gallery__carousel {
+    max-width: 100%;
+    border-radius: var(--radius-lg);
+  }
+
+  .gallery__carousel-slide {
+    height: 400px;
+    padding: 15px;
+  }
+
+  .gallery__indicators {
+    bottom: 15px;
+    padding: 6px 12px;
+  }
+
+  .gallery__indicator {
+    width: 10px;
+    height: 10px;
+  }
+
+  .gallery__nav {
+    width: 35px;
+    height: 35px;
+  }
+
+  .gallery__nav svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Ocultar elementos decorativos en móvil */
+  .section h2::before,
+  .section h2::after {
+    display: none;
+  }
+
+  .hero h1::before,
+  .hero h1::after {
+    display: none;
+  }
+
+  .hero__subtitle::before,
+  .hero__subtitle::after {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery__carousel-slide {
+    height: 320px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    height: 64vh;
+  }
+  
+  .countdown__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

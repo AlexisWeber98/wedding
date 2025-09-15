@@ -1,0 +1,17 @@
+/* Footer con elementos florales */
+.footer {
+  text-align: center;
+  padding: 60px var(--space-lg);
+  color: var(--muted);
+  position: relative;
+}
+
+.footer::before {
+  content: "💕";
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  animation: petalSway 3s ease-in-out infinite;
+}

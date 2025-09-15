@@ -1,0 +1,13 @@
+node_modules
+.dist
+.svelte-kit
+.build
+coverage
+.env
+.DS_Store
+.vscode
+.aws-sam
+.serverless
+backend/node_modules
+backend/.serverless
+backend/.webpack 

@@ -1,0 +1,36 @@
+/* Importar variables y utilidades primero */
+@import './utilities/variables.css';
+@import './utilities/animations.css';
+@import './utilities/responsive.css';
+
+/* Reset y estilos base */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Importar componentes */
+@import './components/hero.css';
+@import './components/countdown.css';
+@import './components/timeline.css';
+@import './components/cards.css';
+@import './components/forms.css';
+@import './components/gallery.css';
+@import './components/floating-petals.css';
+
+/* Importar layout */
+@import './layout/sections.css';
+@import './layout/dividers.css';
+@import './layout/footer.css';
