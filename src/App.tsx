@@ -22,6 +22,7 @@ export default function App() {
     ((import.meta.env as any).VITE_API_URL as string | undefined);
   const alias = import.meta.env.VITE_GIFT_ALIAS as string | undefined;
   const cbu = import.meta.env.VITE_GIFT_CBU as string | undefined;
+  const songUrl = import.meta.env.VITE_API_SONGS as string | undefined;
   const hasApi = useMemo(() => Boolean(apiUrl && apiUrl.length > 0), [apiUrl]);
 
   const [song, setSong] = useState<string>("");
@@ -30,7 +31,7 @@ export default function App() {
   async function sendSongSuggestion() {
     if (!song.trim() || !hasApi) return;
     try {
-      await fetch(`${apiUrl}/song`, {
+      await fetch(`${songUrl}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ song }),
@@ -237,7 +238,7 @@ export default function App() {
             Alias: <strong>{alias ?? "mariana.alexis.boda"}</strong>
           </p>
           <p>
-            CBU: <strong>{cbu ?? "0170132240000010261820"}</strong>
+            CBU: <strong>{cbu ?? "0000000000000000000000"}</strong>
           </p>
         </div>
       </section>
