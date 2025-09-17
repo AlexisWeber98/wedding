@@ -76,7 +76,7 @@ export default function App() {
           </li>
           <li>
             <h3>Discurso</h3>
-            <p>21/11/2025 · 17:00</p>
+            <p>21/11/2025 · 17:30</p>
           </li>
           <li>
             <h3>Fiesta</h3>
