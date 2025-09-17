@@ -30,6 +30,7 @@ export default function App() {
 
   async function sendSongSuggestion() {
     if (!song.trim() || !hasApi) return;
+    console.log(`${songUrl}`);
     try {
       await fetch(`${songUrl}`, {
         method: "POST",
@@ -56,7 +57,11 @@ export default function App() {
 
       <section className="section section--light">
         <h2>⏰ Cuenta regresiva</h2>
-        <p className="lead">Falta muy poco para celebrar juntos 💕</p>
+        <p className="lead">
+          Falta muy poco para celebrar juntos y queremos que seas parte del
+          comienzo de nuestra historia💕
+        </p>
+        <br />
         <Countdown targetDate={ceremonyDate} label="Ceremonia civil" />
       </section>
 
@@ -67,7 +72,7 @@ export default function App() {
         <ul className="timeline">
           <li>
             <h3>Ceremonia civil</h3>
-            <p>20/11/2025 · 13:00</p>
+            <p>20/11/2025 · Horario a Confirmar</p>
           </li>
           <li>
             <h3>Discurso</h3>
@@ -75,7 +80,7 @@ export default function App() {
           </li>
           <li>
             <h3>Fiesta</h3>
-            <p>21/11/2025 · 20:00</p>
+            <p>21/11/2025 · 18:30</p>
           </li>
         </ul>
       </section>

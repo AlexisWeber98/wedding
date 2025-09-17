@@ -212,6 +212,7 @@ body {
 .section p.lead {
   color: var(--muted);
   margin: 10px 0 0;
+    text-align: center
 }
 
 /* ========================================
