@@ -72,7 +72,7 @@ export default function App() {
         <ul className="timeline">
           <li>
             <h3>Ceremonia civil</h3>
-            <p>20/11/2025 · Horario a Confirmar</p>
+            <p>20/11/2025 · 08:50</p>
           </li>
           <li>
             <h3>Discurso</h3>
@@ -248,7 +248,20 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="footer"> ❤️ Con cariño, M & A ❤️</footer>
+      <div className="divider"></div>
+
+      <section className="section">
+        <h2>⚡ A tener en cuenta</h2>
+        <p>
+          · Por favor llegá puntual, queremos que seas parte de cada momento
+        </p>
+        <p>
+          · Si venís con tus niños, por favor no los dejes sin supervición en
+          caso de romperese algo... $ (guiño guiño)
+        </p>
+      </section>
+
+      <footer className="footer"> 👰🏻‍♀️ ❤️ Con cariño, M & A ❤️ 🤵🏻</footer>
     </div>
   );
 }
