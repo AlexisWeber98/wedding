@@ -102,7 +102,7 @@ export default function App() {
               <p className="card__meta">
                 Bartolomé Mitre 253, Florencio Varela
               </p>
-              <p className="card__time">Jueves 20 de Noviembre· 13:00</p>
+              <p className="card__time">Jueves 20 de Noviembre· 08:50</p>
               <a
                 className="link"
                 href="https://maps.app.goo.gl/syA3ASZ6rhkXH9YB9"
@@ -123,7 +123,7 @@ export default function App() {
             <div className="card__body">
               <h3 className="card__title">Salón de Conferencias</h3>
               <p className="card__meta">Av. Carioboni 935, Florencio Varela</p>
-              <p className="card__time">Viernes 21 de Noviembre · 17:00</p>
+              <p className="card__time">Viernes 21 de Noviembre · 17:30</p>
               <a
                 className="link"
                 href="https://maps.app.goo.gl/3eH2GtEvvks45h3r6"
@@ -144,7 +144,7 @@ export default function App() {
             <div className="card__body">
               <h3 className="card__title">Salón de Fiestas</h3>
               <p className="card__meta">Av. Eva Perón 6824, Florencio Varela</p>
-              <p className="card__time">Viernes 21 de noviembre · 21:00</p>
+              <p className="card__time">Viernes 21 de noviembre · 18:30</p>
               <a
                 className="link"
                 href="https://maps.app.goo.gl/nYkJMCPhZM7GNgBK6"
